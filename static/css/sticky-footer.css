@@ -1,0 +1,40 @@
+#footer {
+  width: 100%;
+  height: 80px;
+  max-height: 80px;
+  background-color: #E6E7E6;
+} 
+
+.separacion {
+  float: left;
+  height: 100%;
+  width: 10%;
+}
+
+.menu-footer{
+  height: 100%;
+  width: 100%;
+}
+
+.lista{
+  margin-top: 13px;
+  float: left;
+  height: 84%;
+  margin-right: 16px;
+}
+
+.columna{
+  list-style-type:none;
+  padding: 0;
+}
+
+a{
+  color: #727DA2;
+  text-decoration: underline;
+  padding: 0px;
+}
+
+a:hover { 
+  font-weight: bold;
+}
+

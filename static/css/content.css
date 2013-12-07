@@ -1,3 +1,7 @@
+#content {
+	height: 85%;
+}
+
 #date {
 	background-color: #333366;
 	color: white;
@@ -36,6 +40,28 @@
 	margin-top: -10px;
 }
 
+#links {
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	height: 100%;
+	margin-top: 2px;
+	width: 10%;
+}
+
+#links .btn {
+	border-bottom: solid 1px #B8B8B8;
+	color: white;
+	height: 50%;
+	text-decoration: none;
+}
+
+#links .btn:hover{
+	border-bottom: solid 1px #B8B8B8;
+	color: black;
+	height: 50%;
+}
+
 #panel-news-events {
 	background-color: #A9A9A9;
 	height: 80px;
@@ -48,6 +74,10 @@
 	float: left;
 	height: 100%;
 	width: 25%;
+}
+
+#space-under-panel {
+	height: 120px;
 }
 
 .carousel-control {
@@ -74,31 +104,4 @@
   max-height: 325px;
   min-height: 325px;
   width: 80%;
-}
-
-#links {
-	float: left;
-	font-weight: bold;
-	font-size: 14px;
-	height: 100%;
-	margin-top: 2px;
-	width: 10%;
-}
-
-#links .btn {
-	border-bottom: solid 1px #B8B8B8;
-	color: white;
-	height: 50%;
-}
-
-#links .btn:hover{
-	border-bottom: solid 1px #B8B8B8;
-	color: black;
-	height: 50%;
-}
-
-#space-under-panel {
-	background-color: red;
-	clear: both;
-	height: 150px;
 }

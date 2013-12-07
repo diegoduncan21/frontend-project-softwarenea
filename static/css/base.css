@@ -1,0 +1,12 @@
+#header {
+	height: 180px;
+}
+
+#content {
+	height: 85%;
+}
+
+#footer {
+	clear: both;
+	height: 80px;
+}

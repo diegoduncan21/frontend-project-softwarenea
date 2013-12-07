@@ -3,11 +3,92 @@
 <head>
 	<meta charset="UTF-8">
 	<title>generic title</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="static/css/base.css" rel="stylesheet">
+	<link href="static/css/content.css" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div id="container">
 		<div id="header"></div>
-		<div id="content"></div>
+		<div id="content">
+			
+			<div id="carousel" class="carousel slide custom-carousel" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators pull-left">
+			    	<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			    	<li data-target="#carousel" data-slide-to="1"></li>
+			    	<li data-target="#carousel" data-slide-to="2"></li>
+			    	<li data-target="#carousel" data-slide-to="3"></li>
+			  	</ol>
+
+			  	<!-- Wrapper for slides -->
+			  	<div class="carousel-inner">
+			    	<div class="item active">
+			      		<img class="custom-carousel" src="static/img/1.jpg" alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Galaxy</h3>
+			      		</div>
+			    	</div>
+
+			    	<div class="item">
+			      		<img class="custom-carousel" src="static/img/2.png" alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Python</h3>
+			      		</div>
+			    	</div>
+
+			    	<div class="item">
+			      		<img class="custom-carousel" src="static/img/3.png" alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Django</h3>
+    						<p>mi rey</p>
+			      		</div>
+			    	</div>
+
+			    	<div class="item">
+			      		<img class="custom-carousel"src="static/img/4.png " alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Python</h3>
+    						<p>again</p>
+			      		</div>
+			    	</div>
+
+			  	</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+
+			<div id="panel-news-events">
+				<span id="links" class="btn-group-vertical">
+					<a id="news" class="btn">NOTICIAS</a>
+					<a id="events" class="btn">EVENTOS</a>
+				</span>
+
+				<span id="date">  
+					<h3>12</h3>
+					<p>DIC</p>
+				</span>
+
+				<span id="description">
+					<h3>Taller de UX en la UTN</h3>
+					<p>El tercer taller de 5 encuentros. Esta vez se tratara de pruebas con usuarios.</p>
+				</span>
+
+				<span id="profile-social-icons"></span>
+
+				<div id="space-under-panel"></div>
+			</div>
+
+		</div>
 		<div id="footer"></div>
 	</div>
 </body>

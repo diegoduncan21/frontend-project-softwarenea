@@ -63,7 +63,8 @@
 }
 
 #panel-news-events {
-	background-color: #A9A9A9;
+	background-image:url('../img/pie-carrusel-01.png');
+	/*background-color: #A9A9A9;*/
 	height: 80px;
   	max-height: 80px;
   	min-height: 80px;

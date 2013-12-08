@@ -1,8 +1,9 @@
 #footer {
-  width: 100%;
+  background-color: #E6E7E6;
+  background-image:url('../img/Pie-01.png');
   height: 80px;
   max-height: 80px;
-  background-color: #E6E7E6;
+  width: 100%;
 } 
 
 .separacion {

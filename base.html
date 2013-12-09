@@ -3,10 +3,59 @@
 <head>
 	<meta charset="UTF-8">
 	<title>generic title</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
 </head>
 <body>
 	<div id="container">
-		<div id="header"></div>
+		<div id="header" class="divHeader">
+			<div class="row">
+				<div class="container">
+					<div class="col-sm-12">
+						<div class="row">
+							<div id="nav-language" class="pull-right mg-language">
+								<div class="btn-group">
+									<button type="button" class="btn btn-default btn-lang dropdown-toggle" data-toggle="dropdown">
+										ESP
+										<span class="glyphicon glyphicon-chevron-right"></span>
+									</button>
+									<ul class="dropdown-menu">
+										<li><a href="#">ENG</a></li>
+										<li><a href="#">POR</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<div id="logo">
+							<h1 class="text-logo">SoftwareNea</h1>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<div id="nav-ppal">
+							<ul class="nav navbar-nav menu-ppal">
+								<li class="active"><a href="#">Inicio</a></li>
+								<li><a href="#">Acerca</a></li>
+								<li><a href="#">Instituciones</a></li>
+								<li><a href="#">Polot IT Chaco</a></li>
+								<li><a href="#">Informatorio</a></li>
+								<li><a href="#">Contacto</a></li>
+							</ul>
+						</div>
+						<div class="input-group col-sm-3 search-ppal">
+							<div class="input-group-btn">
+								<button class="btn btn-default none-radiusborder border-search" type="button">
+									<span class="glyphicon glyphicon-search"></span>
+								</button>
+							</div>
+								 
+							<input type="text" class="form-control none-radiusborder border-search" placeholder="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div id="content"></div>
 		<div id="footer"></div>
 	</div>

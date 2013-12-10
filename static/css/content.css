@@ -171,3 +171,57 @@
 	margin: 10px;
 	width: 67px;
 }
+
+.btn-perfil{
+	background: #999;
+	border-radius: 0;
+	color: #fff;
+}
+
+.p-desarrollador{
+	background: #33cc99;
+}
+
+.p-estudiante{
+	background: #996699;
+}
+
+.p-empresa{
+	background: #f54553;
+}
+
+.p-empresa, .p-estudiante, .p-desarrollador{
+	font-weight: bold !important;
+	color: #fff !important;
+}
+
+.p-empresa a, .p-estudiante a, .p-desarrollador a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+
+.dd-perfil{
+	top: -100%;
+	left: 104%;
+	margin: 13px 0 0 0;
+	padding: 0;
+}
+
+.dd-perfil li a{
+	color: #fff;
+}
+
+#search {
+	bottom: 5px;
+}
+
+#drop-profile {
+	color: white !important;
+	background-color: #999999;
+	width: 190px;
+}
+
+.dd-perfil {
+	width: 190px;
+}

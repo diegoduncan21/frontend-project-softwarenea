@@ -77,6 +77,18 @@
 	width: 25%;
 }
 
+#profiles {
+	background-color: red;
+	height: 50%;
+	width: 100%;
+}
+
+#social-icons {
+	background-color: blue;
+	height: 50%;
+	width: 100%;
+}
+
 #space-under-panel {
 	height: 120px;
 }

@@ -202,7 +202,7 @@
 }
 
 .dd-perfil{
-	top: -100%;
+	top: -42%;
 	left: 104%;
 	margin: 13px 0 0 0;
 	padding: 0;
@@ -210,6 +210,7 @@
 
 .dd-perfil li a{
 	color: #fff;
+	padding: 7px 20px;
 }
 
 #search {

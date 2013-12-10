@@ -1,0 +1,152 @@
+#content {
+	height: 85%;
+}
+
+#date {
+	background-color: #333366;
+	color: white;
+	float: left;
+	height: 100%;
+	text-align: center;
+	width: 5%;
+}
+
+#date h3 {
+	font-weight: bold;
+}
+
+#date p {
+	margin-top: -13px;
+}
+
+#description {
+	float: left;
+	height: 100%;
+	width: 60%;
+}
+
+#description h3 {
+	color: #333366;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 13px;
+	margin-top: 10px;
+}
+
+#description p {
+	color: #333366;
+	font-size: 15px;
+	margin-left: 13px;
+	margin-top: -10px;
+}
+
+#links {
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	height: 100%;
+	margin-top: 2px;
+	width: 10%;
+}
+
+#links .btn {
+	border-bottom: solid 1px #B8B8B8;
+	color: white;
+	height: 50%;
+	text-decoration: none;
+}
+
+#links .btn:hover{
+	border-bottom: solid 1px #B8B8B8;
+	color: black;
+	height: 50%;
+}
+
+#panel-news-events {
+	background-image:url('../img/pie-carrusel-01.png');
+	/*background-color: #A9A9A9;*/
+	height: 80px;
+  	max-height: 80px;
+  	min-height: 80px;
+}
+
+#profile-social-icons {
+	background-color: white;
+	float: left;
+	height: 100%;
+	width: 25%;
+}
+
+#space-under-panel {
+	height: 120px;
+}
+
+.carousel-control {
+	width: 10%;
+}
+
+.carousel-indicators {
+    left: 41%;
+    bottom: 2%;
+}
+
+.carousel-indicators li{
+    border: solid 1px #A9A9A9;
+	float: left;
+}
+
+.carousel-indicators li.active {
+    background-color: #A9A9A9;
+}
+
+.custom-carousel img {
+  height: 325px;
+  margin: 0 auto;
+  max-height: 325px;
+  min-height: 325px;
+  width: 80%;
+}
+
+.btn-perfil{
+	background: #999;
+	border-radius: 0;
+	color: #fff;
+}
+
+.p-desarrollador{
+	background: #33cc99;
+}
+
+.p-estudiante{
+	background: #996699;
+}
+
+.p-empresa{
+	background: #f54553;
+}
+
+.p-empresa, .p-estudiante, .p-desarrollador{
+	font-weight: bold !important;
+	color: #fff !important;
+}
+
+.p-empresa a, .p-estudiante a, .p-desarrollador a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-perfil{
+	margin: 13px 0 0 10px;
+}
+
+.dd-perfil{
+	top: -100%;
+	left: 104%;
+	margin: 13px 0 0 0;
+	padding: 0;
+}
+
+.dd-perfil li a{
+	color: #fff;
+}

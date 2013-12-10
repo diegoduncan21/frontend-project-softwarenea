@@ -3,7 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>generic title</title>
-	<link rel="stylesheet" type="text/css" href="header.css">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="static/css/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="header.css">
+	<link href="static/css/content.css" rel="stylesheet">
+	<link href="static/css/sticky-footer.css" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div id="container">
@@ -55,8 +62,148 @@
 				</div>
 			</div>
 		</div>
-		<div id="content"></div>
-		<div id="footer"></div>
+		<div id="content">
+			
+			<div id="carousel" class="carousel slide custom-carousel" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators pull-left">
+			    	<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			    	<li data-target="#carousel" data-slide-to="1"></li>
+			    	<li data-target="#carousel" data-slide-to="2"></li>
+			    	<li data-target="#carousel" data-slide-to="3"></li>
+			  	</ol>
+
+			  	<!-- Wrapper for slides -->
+			  	<div class="carousel-inner">
+			    	<div class="item active">
+			      		<img class="custom-carousel" src="static/img/1.jpg" alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Galaxy</h3>
+			      		</div>
+			    	</div>
+
+			    	<div class="item">
+			      		<img class="custom-carousel" src="static/img/2.png" alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Python</h3>
+			      		</div>
+			    	</div>
+
+			    	<div class="item">
+			      		<img class="custom-carousel" src="static/img/3.png" alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Django</h3>
+    						<p>mi rey</p>
+			      		</div>
+			    	</div>
+
+			    	<div class="item">
+			      		<img class="custom-carousel"src="static/img/4.png " alt="...">
+			      		<div class="carousel-caption">
+			        		<h3>Python</h3>
+    						<p>again</p>
+			      		</div>
+			    	</div>
+
+			  	</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+
+			<div id="panel-news-events">
+				<span id="links" class="btn-group-vertical">
+					<a id="news" class="btn">NOTICIAS</a>
+					<a id="events" class="btn">EVENTOS</a>
+				</span>
+
+				<span id="date">  
+					<h3>12</h3>
+					<p>DIC</p>
+				</span>
+
+				<span id="description">
+					<h3>Taller de UX en la UTN</h3>
+					<p>El tercer taller de 5 encuentros. Esta vez se tratara de pruebas con usuarios.</p>
+				</span>
+
+				<span id="profile-social-icons">
+					<div class="btn-group nav-perfil">
+                        <button type="button" class="btn btn-default btn-perfil dropdown-toggle" data-toggle="dropdown">
+                            Elegí tu perfil
+                        	<span class="glyphicon glyphicon-chevron-right"></span>
+                        </button>
+                        <ul class="dropdown-menu dd-perfil">
+                           	<li class="p-desarrollador">
+                           		<a href="#">
+                           			<span class="glyphicon glyphicon-chevron-right"></span>
+                           			Desarrollador
+                           		</a>
+                           	</li>
+                            <li class="p-estudiante">
+                            	<a href="#">
+                            		<span class="glyphicon glyphicon-chevron-right"></span>
+                            		Estudiante
+                            	</a>
+                            </li>
+                            <li class="p-empresa">
+                            	<a href="#">
+                            		<span class="glyphicon glyphicon-chevron-right"></span>
+                            		Empresa
+                            	</a>
+                           	</li>
+                        </ul>
+                    </div>
+				</span>
+			</div>
+
+			<div id="space-under-panel"></div>
+
+		</div>
+		<div id="footer">
+	    	<span class="separacion">
+	    	</span>
+	    	<div class="menu-footer">
+		    	<span class="lista">
+					<ul class="columna">
+						<li>
+							<a class="link" href="#">Inicio</a>
+						</li>
+						<li>
+							<a href="#">Acerca</a>
+						</li>	
+					</ul>
+				</span>
+				<span class="lista">
+					<ul class="columna">
+						<li>
+							<a class="link" href="#">Instituciones</a>
+						</li>
+						<li>
+							<a href="#">Polo IT Chaco</a>
+						</li>
+						<li>
+							<a href="#">Informatorio</a>
+						</li>		
+					</ul>
+				</span>
+				<span class="lista">
+					<ul class="columna">
+						<li>
+							<a class="link" href="#">Buscar</a>
+						</li>
+						<li>
+							<a href="#">Contacto</a>
+						</li>	
+					</ul>
+				</span>
+	   		</div>
+		</div>
 	</div>
 </body>
 </html>

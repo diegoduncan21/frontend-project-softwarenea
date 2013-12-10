@@ -75,16 +75,15 @@
 	float: left;
 	height: 100%;
 	width: 25%;
+	padding: 10px;
 }
 
 #profiles {
-	background-color: red;
 	height: 50%;
 	width: 100%;
 }
 
 #social-icons {
-	background-color: blue;
 	height: 50%;
 	width: 100%;
 }
@@ -94,7 +93,7 @@
 }
 
 .carousel-control {
-	width: 10%;
+	width: 120px;
 }
 
 .carousel-indicators {
@@ -117,4 +116,58 @@
   max-height: 325px;
   min-height: 325px;
   width: 80%;
+}
+
+.facebook-icon {
+	background: url("../img/iconos-redes-sociales-01.png") 1px -67px;
+	display: block;
+	float: left;
+	height: 66px;
+	margin: 10px;
+	width: 67px;
+}
+
+.facebook-icon:hover {
+	background: url("../img/iconos-redes-sociales-01.png") 201px -67px;
+	display: block;
+	float: left;
+	height: 66px;
+	margin: 10px;
+	width: 67px;
+}
+
+.twitter-icon {
+	background: url("../img/iconos-redes-sociales-01.png") -67px -67px;
+	display: block;
+	float: left;
+	height: 66px;
+	margin: 10px;
+	width: 67px;
+}
+
+.twitter-icon:hover {
+	background: url("../img/iconos-redes-sociales-01.png") 134px -68px;
+	display: block;
+	float: left;
+	height: 66px;
+	margin: 10px;
+	width: 67px;
+}
+
+.gplus-icon {
+	background: url("../img/iconos-redes-sociales-01.png") -134px -67px;
+	display: block;
+	float: left;
+	height: 66px;
+	margin: 10px;
+	width: 67px;
+}
+
+.gplus-icon:hover {
+	background: url("../img/iconos-redes-sociales-01.png") 66px -67px;
+	display: block;
+	float: left;
+	height: 66px;
+	margin: 10px;
+	width: 67px;
 }

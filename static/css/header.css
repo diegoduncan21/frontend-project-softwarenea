@@ -1,0 +1,83 @@
+.mg-language{
+	margin: 44px 0 0 0;
+}
+
+.btn-lang{
+	border-color: #333366;
+	border-radius: 0;
+	padding: 6px;
+}
+
+
+.menu-ppal > li{
+	float: left;
+	padding: 0;
+	margin: 0 16px 0 0;
+	border-bottom: 1px solid;
+}
+
+.menu-ppal > li > a{
+	padding: 0;
+	text-decoration: none;
+}
+
+.menu-ppal > li > a:hover{
+	background: transparent;
+}
+
+.menu-ppal > li:hover{
+	background: #fff;
+	font-weight: bold;
+	border-bottom: 2px solid;
+}
+
+.none-radiusborder{
+	border-radius: 0;
+}
+
+.back-icon-search{
+	background: #333366;
+}
+
+.border-search{
+	border: 1px solid #333366;
+}
+
+#nav-ppal {
+
+}
+
+#search {
+	bottom: 5px;
+}
+
+#drop-profile {
+	color: white !important;
+	background-color: #999999;
+	width: 190px;
+}
+
+.dd-perfil {
+	width: 190px;
+}
+
+.p-desarrollador a {
+	background-color: #33cc99;
+	color: white !important;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.p-estudiante a {
+	background-color: #996699;
+	color: white !important;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.p-empresa a {
+	background-color: #f54553;
+	color: white !important;
+	font-weight: bold;
+	text-decoration: none;
+}

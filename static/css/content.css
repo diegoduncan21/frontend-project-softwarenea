@@ -63,7 +63,7 @@
 }
 
 #panel-news-events {
-	background-image:url('../img/pie-carrusel-01.png');
+	background-image:url('../img/Footer_Carrousel.png');
 	/*background-color: #A9A9A9;*/
 	height: 80px;
   	max-height: 80px;
@@ -85,6 +85,7 @@
 
 #social-icons {
 	height: 50%;
+	margin-left: 8%;
 	width: 100%;
 }
 
@@ -118,58 +119,37 @@
   width: 80%;
 }
 
-.facebook-icon {
-	background: url("../img/iconos-redes-sociales-01.png") 1px -67px;
+.custom-icon {
 	display: block;
 	float: left;
-	height: 66px;
+	height: 25px;
 	margin: 10px;
-	width: 67px;
+	width: 25px;
 }
 
-.facebook-icon:hover {
-	background: url("../img/iconos-redes-sociales-01.png") 201px -67px;
-	display: block;
-	float: left;
-	height: 66px;
-	margin: 10px;
-	width: 67px;
+.facebook-icon.custom-icon {
+	background: url("../img/Redes_Sociales.png") 0px -79px;
 }
 
-.twitter-icon {
-	background: url("../img/iconos-redes-sociales-01.png") -67px -67px;
-	display: block;
-	float: left;
-	height: 66px;
-	margin: 10px;
-	width: 67px;
+.facebook-icon.custom-icon:hover {
+	background: url("../img/Redes_Sociales.png") 75px -1px;
 }
 
-.twitter-icon:hover {
-	background: url("../img/iconos-redes-sociales-01.png") 134px -68px;
-	display: block;
-	float: left;
-	height: 66px;
-	margin: 10px;
-	width: 67px;
+.twitter-icon.custom-icon {
+	background: url("../img/Redes_Sociales.png") -25px -53px;
 }
 
-.gplus-icon {
-	background: url("../img/iconos-redes-sociales-01.png") -134px -67px;
-	display: block;
-	float: left;
-	height: 66px;
-	margin: 10px;
-	width: 67px;
+.twitter-icon.custom-icon:hover {
+	background: url("../img/Redes_Sociales.png") 200px -1px;
 }
 
-.gplus-icon:hover {
-	background: url("../img/iconos-redes-sociales-01.png") 66px -67px;
-	display: block;
-	float: left;
-	height: 66px;
-	margin: 10px;
-	width: 67px;
+.gplus-icon.custom-icon {
+	background: url("../img/Redes_Sociales.png") -200px -53px;
+	width: 25px;
+}
+
+.gplus-icon.custom-icon:hover {
+	background: url("../img/Redes_Sociales.png") 25px -53px;
 }
 
 .btn-perfil{
@@ -202,10 +182,10 @@
 }
 
 .dd-perfil{
-	top: -40%;
-	left: 104%;
+	top: 74%;
 	margin: 13px 0 0 0;
 	padding: 0;
+	width: 191px;
 }
 
 .dd-perfil li a{
@@ -220,9 +200,5 @@
 #drop-profile {
 	color: white !important;
 	background-color: #999999;
-	width: 190px;
-}
-
-.dd-perfil {
 	width: 190px;
 }

@@ -152,43 +152,42 @@
 	background: url("../img/Redes_Sociales.png") 25px -53px;
 }
 
-.btn-perfil{
-	background: #999;
+.btn-perfil {
 	border-radius: 0;
 	color: #fff;
 }
 
-.p-desarrollador{
+.p-desarrollador {
 	background: #33cc99;
 }
 
-.p-estudiante{
+.p-estudiante {
 	background: #996699;
 }
 
-.p-empresa{
+.p-empresa {
 	background: #f54553;
 }
 
-.p-empresa, .p-estudiante, .p-desarrollador{
+.p-empresa, .p-estudiante, .p-desarrollador {
 	font-weight: bold !important;
 	color: #fff !important;
 }
 
-.p-empresa a, .p-estudiante a, .p-desarrollador a{
+.p-empresa a, .p-estudiante a, .p-desarrollador a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #fff;
 }
 
-.dd-perfil{
+.dd-perfil {
 	top: 74%;
 	margin: 13px 0 0 0;
 	padding: 0;
 	width: 191px;
 }
 
-.dd-perfil li a{
+.dd-perfil li a {
 	color: #fff;
 	padding: 7px 20px;
 }
@@ -198,7 +197,6 @@
 }
 
 #drop-profile {
-	color: white !important;
-	background-color: #999999;
+	color: #333366 !important;
 	width: 190px;
 }

@@ -1,0 +1,31 @@
+#contact-form{
+	display: table;
+	vertical-align: middle;
+	margin-top: 50px;
+	margin-left: 400px;
+	width: 280px;
+}
+
+.centrar-input{
+	display: block;
+	margin: 10px;
+	width: 280px;
+	border: 1px solid #333366;
+}
+
+#submit-contact{
+	margin: 10px;
+	border: 1px solid #333366;
+}
+
+#line-contact{
+	border-top: 1px solid #333366;
+}
+
+#contact-social-icons {
+	background-color: white;
+	float: right!important;
+	height: 100%;
+	/*width: 25%;*/
+	padding: 10px;
+}

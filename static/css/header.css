@@ -2,10 +2,6 @@
 	margin: 44px 0 0 0;
 }
 
-.divHeader{
-	height: 180px;
-}
-
 .btn-lang{
 	border-color: #333366;
 	border-radius: 0;
@@ -22,6 +18,7 @@
 
 .menu-ppal > li > a{
 	padding: 0;
+	text-decoration: none;
 }
 
 .menu-ppal > li > a:hover{

@@ -9,10 +9,12 @@
 	<link href="static/css/header.css" rel="stylesheet">
 	<link href="static/css/content.css" rel="stylesheet">
 	<link href="static/css/sticky-footer.css" rel="stylesheet">
-	<link href="static/css/contact-form.css" rel="stylesheet">
+	<link href="static/css/informatorio-form.css" rel="stylesheet">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+	<script src="static/datepicker/js/bootstrap-datepicker.js"></script>
+
 
 </head>
 <body>
@@ -108,10 +110,36 @@
 			<hr id="line-contact">
 			<form name="contact_form" action="" method="post">
 				<div id="contact-form">
-					<input type="text" class="centrar-input" name = "" placeholder="Nombre"></input>
-					<input type="text" class="centrar-input" name = "" placeholder="E-Mail"></input>
-					<textarea rows="4" class="centrar-input" name = "" cols="50" placeholder="Mensaje"></textarea>
-					<input type="submit" class="pull-right" name = "" id="submit-contact" ></input>
+					<input type="text" class="center-input" name="" placeholder="Nombre"></input>
+					<input type="text" class="center-input" name="" placeholder="Apellido"></input>
+					<input type="text" class="center-input" name="" placeholder="DNI"></input>
+					<div id="box">
+						<label id="tag-label">Fecha de Nac.</label>
+						<input type="date" id="datepicker" name=""></input>	
+					</div>
+					<input type="text" class="center-input" name="" placeholder="Localidad"></input>
+					<input type="text" class="center-input" name="" placeholder="Provincia"></input>
+					<input type="text" class="center-input" name="" placeholder="Telefono"></input>
+					<input type="email" class="center-input" name="" placeholder="Email"></input>
+					<input type="text" class="center-input" name="" placeholder="Facebook"></input>
+					<input type="text" class="center-input" name="" placeholder="Titulo secundario"></input>
+					<span id="box">
+						<label id="tag-label">Nivel Universitario</label>
+						<label>Sí</label>
+						<input type="radio" name="nuniversitario" value="si">
+						<label>No</label>
+						<input type="radio" name="nuniversitario" value="no">
+					</span>	
+					<input type="text" class="center-input" name="" placeholder="Universidad"></input>
+					<textarea rows="4" class="center-textarea" name="" cols="50" placeholder="Motivo de interes por la informática"></textarea>
+					<textarea rows="4" class="center-textarea" name="" cols="50" placeholder="Preferencias en informática"></textarea>
+					<input type="text" class="center-input" name="" placeholder="Disponibilidad horaria"></input>
+					<textarea rows="4" class="center-textarea" name="" cols="50" placeholder="¿Qué formación poseés?"></textarea>
+					<textarea rows="4" class="center-textarea" name="" cols="50" placeholder="¿Qué expectativas tenés?"></textarea>
+
+
+										
+					<input type="submit" class="pull-right" name="" id="submit-contact" ></input>
 
 				</div>	
 			</form>

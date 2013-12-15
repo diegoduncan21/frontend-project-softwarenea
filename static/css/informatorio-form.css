@@ -1,0 +1,69 @@
+
+#contact-form{
+	display: table;
+	vertical-align: middle;
+	margin-top: 50px;
+	margin-left: 400px;
+	width: 200px;
+	font-family: Roboto light;
+	font-size: 11px;
+	color: #333366;
+}
+
+#tag-label{
+	float: left;
+	width: 80px;
+	padding: 5px;
+}
+
+#datepicker{
+	float: left;
+	width: 120px;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#box{
+	display: block;
+	margin: 10px;
+	width: 200px;
+	margin: 10px;
+}
+
+#submit-contact{
+	margin: 10px;
+	border: 1px solid #333366;
+	background-color: #FFFFFF;
+	color: #333366;
+}
+#submit-contact:hover{
+	border: 1px solid #FFFFFF;
+	background-color: #333366;
+	color:#FFFFFF;
+}
+
+#line-contact{
+	border-top: 1px solid #333366;
+}
+
+#contact-social-icons{
+	background-color: white;
+	float: right!important;
+	height: 100%;
+}
+
+.center-input{
+	display: block;
+	margin: 10px;
+	padding: 5px;
+	width: 200px;
+	height: 20px;
+	border: 1px solid #333366;
+}
+
+.center-textarea{
+	margin: 10px;
+	width: 200px;
+	border: 1px solid #333366;
+}

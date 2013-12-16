@@ -1,0 +1,145 @@
+.labels-form {
+	margin: 35px 0 0 0;
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+
+.labels-form > label {
+	width: 200px;
+	margin: 5px;
+}
+
+.inputs-form{
+	float: left;
+	display: table;
+	vertical-align: middle;
+	margin-top: 30px;
+	width: 200px;
+	font-size: 11px;
+	color: #333366;
+}
+
+#tag-label{
+	float: left;
+	width: 80px;
+	padding: 5px;
+}
+
+#datepicker{
+	width: 200px;
+	height: 20px;
+	border: 1px solid #333366;
+}
+
+#box{
+	display: block;
+	margin: 10px;
+	width: 200px;
+	margin: 10px;
+}
+
+#submit-contact{
+	margin: 10px;
+	border: 1px solid #333366;
+	background-color: #FFFFFF;
+	color: #333366;
+}
+#submit-contact:hover{
+	border: 1px solid #FFFFFF;
+	background-color: #333366;
+	color:#FFFFFF;
+}
+
+#line-contact{
+	border-top: 1px solid #333366;
+}
+
+#contact-social-icons{
+	background-color: white;
+	float: right!important;
+	height: 100%;
+}
+
+.center-input{
+	display: block;
+	margin: 10px;
+	padding: 5px;
+	width: 200px;
+	height: 20px;
+	border: 1px solid #333366;
+}
+
+.center-textarea{
+	margin: 10px;
+	width: 200px;
+	border: 1px solid #333366;
+}
+
+.select-univ {
+	text-align: center;
+	padding: 0;
+	border: 0;
+}
+
+.margin-textbox {
+	margin: 15px 0 45px 0!important;
+}
+
+.both {
+	clear: both;
+}
+
+.info-menu-lateral {
+
+}
+
+.info-menu-lateral > li {
+	margin: 15px;
+	text-align: center;
+	border: 1px solid #333366;
+	list-style: none;
+}
+
+.info-menu-lateral > li a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.info-menu-lateral > li:hover {
+	font-weight: bold;
+	background: #333366;
+}
+
+.info-menu-lateral > li a:hover {
+	color: #fff!important;
+}
+
+.info-menu-lateral > li.active {
+	background: #333366;
+}
+
+.submenu-info-menu-lateral > li {
+	list-style: none;
+}
+
+.submenu-info-menu-lateral > li a {
+	text-decoration: none;
+}
+
+.submenu-info-menu-lateral > li a:hover {
+	background: url(../img/back-info-submenu-lateral.png);
+}
+
+.submenu-info-menu-lateral > li.active a {
+	background: url(../img/back-info-submenu-lateral.png);
+	font-weight: bold;
+}
+
+.informatorio-gallery {
+	border: 1px solid #333366;
+	float: left;
+	width: 30%;
+	height: auto;
+	margin: 0 1.5%;
+}

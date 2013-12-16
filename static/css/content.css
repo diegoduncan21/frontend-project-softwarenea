@@ -226,3 +226,76 @@
 .dd-perfil {
 	width: 190px;
 }
+
+.i-informatorio {
+	height: 312px;
+}
+
+#contact-icons {
+	margin: 90px 0 0 0;
+}
+
+#contact-icons .email-icon, #contact-icons .facebook-icon, #contact-icons .twitter-icon, #contact-icons .gplus-icon {
+	margin: 10px;
+	display: block;
+	float: left;
+	background: url("../img/contact-icons.png");
+	height: 30px;
+	width: 30px;
+}
+
+#contact-icons .email-icon {
+	background-position: -30px;
+}
+
+#contact-icons .twitter-icon {
+	background-position: -30px;
+}
+
+#contact-icons .gplus-icon {
+	background-position: -60px;
+}
+
+
+.info-content {
+	display: block;
+}
+
+.margin-content {
+	margin: 0 0 0 40px;
+}
+
+.nav-tabs {
+	border: 0;
+	margin: 0 0 17px 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	color: #fff;
+	font-weight: bold;
+	background-color: #333366;
+	border: 1px solid #333366;
+}
+
+.nav-tabs>li>a {
+	margin: 0;
+	border: 1px solid #333366;
+	color: #333366;
+	border-radius: 0;
+	text-decoration: none;
+}
+
+.nav-tabs>li>a:hover {
+	border: 1px solid #333366;
+}
+
+.marco-image {
+	height: auto;
+	width: 90%;
+	border: 1px solid #333366;
+	margin: 0 0 8px 0;
+}
+
+.image-desc {
+	width: 90%;
+}

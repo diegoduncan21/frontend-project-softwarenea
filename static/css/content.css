@@ -1,5 +1,6 @@
 #content {
 	height: 85%;
+	color: #333366 !important;
 }
 
 #date {
@@ -26,7 +27,6 @@
 }
 
 #description h3 {
-	color: #333366;
 	font-size: 18px;
 	font-weight: bold;
 	margin-left: 13px;
@@ -34,7 +34,6 @@
 }
 
 #description p {
-	color: #333366;
 	font-size: 15px;
 	margin-left: 13px;
 	margin-top: -10px;
@@ -58,7 +57,7 @@
 
 #links .btn:hover{
 	border-bottom: solid 1px #B8B8B8;
-	color: black;
+	color: #333366;
 	height: 50%;
 }
 

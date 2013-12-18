@@ -202,9 +202,6 @@
 }
 
 .dd-perfil{
-	top: -40%;
-	left: 104%;
-	margin: 13px 0 0 0;
 	padding: 0;
 }
 
@@ -218,9 +215,10 @@
 }
 
 #drop-profile {
-	color: white !important;
-	background-color: #999999;
+	color: #333366 !important;
+	background-color: #fff;
 	width: 190px;
+	border: 1px solid #333366;
 }
 
 .dd-perfil {
@@ -244,15 +242,35 @@
 	width: 30px;
 }
 
+#contact-icons .facebook-icon {
+	background-position: -90px;
+}
+
+#contact-icons .facebook-icon:hover {
+	background-position: -180px;
+}
+
 #contact-icons .email-icon {
-	background-position: -30px;
+	background-position: 60px;
 }
 
 #contact-icons .twitter-icon {
-	background-position: -30px;
+	background-position: 60px;
 }
 
 #contact-icons .gplus-icon {
+	background-position: 30px;
+}
+
+#contact-icons .email-icon:hover {
+	background-position: -30px;
+}
+
+#contact-icons .twitter-icon:hover {
+	background-position: -30px;
+}
+
+#contact-icons .gplus-icon:hover {
 	background-position: -60px;
 }
 

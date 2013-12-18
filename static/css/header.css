@@ -1,5 +1,5 @@
 .mg-language{
-	margin: 44px 0 0 0;
+	margin: 24px 0 5px 0;
 }
 
 .btn-lang{
@@ -41,4 +41,45 @@
 
 .border-search{
 	border: 1px solid #333366;
+}
+
+#social-header .email-icon, #social-header .facebook-icon, #social-header .twitter-icon, #social-header .gplus-icon {
+	margin: 10px;
+	display: block;
+	float: left;
+	background: url("../img/contact-icons.png");
+	height: 30px;
+	width: 30px;
+}
+
+#social-header .facebook-icon {
+	background-position: -90px;
+}
+
+#social-header .facebook-icon:hover {
+	background-position: -180px;
+}
+
+#social-header .email-icon {
+	background-position: 60px;
+}
+
+#social-header .twitter-icon {
+	background-position: 60px;
+}
+
+#social-header .gplus-icon {
+	background-position: 30px;
+}
+
+#social-header .email-icon:hover {
+	background-position: -30px;
+}
+
+#social-header .twitter-icon:hover {
+	background-position: -30px;
+}
+
+#social-header .gplus-icon:hover {
+	background-position: -60px;
 }
